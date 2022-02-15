@@ -1,0 +1,19 @@
+server:
+  port: 5000
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gofinances
+    username: postgres
+    password: 25skvkqB
+  jpa:
+    show_sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        format-sql: true
+
+logging:
+  level:
+      com:
+        mesquitadev: DEBUG
+
